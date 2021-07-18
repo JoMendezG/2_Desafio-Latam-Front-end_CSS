@@ -1,0 +1,17 @@
+// Utilities
+@import "utilities/variable.scss";
+
+// Base
+@import "base/typography.scss";
+
+// Layout 
+@import "layout/navbar.scss";
+@import "layout/content.scss";
+@import "layout/datos.scss";
+@import "layout/texto.scss";
+@import "layout/website.scss";
+@import "layout/images.scss";
+
+// Components 
+@import "components/Primary_button.scss";
+@import "components/Secondary_button.scss";

@@ -1,0 +1,42 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+.navbar {
+    background-color: $Eerie_Black;
+
+    img,
+    &__logo {
+        padding: 10px 0;
+        width: 25%;
+    }
+
+    &__list {
+        margin-left: auto;
+    }
+
+    a,
+    &__navbar__itemLink {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 15px;
+        color: white;
+    }
+
+    &__itemLink--active {
+        color: $Fuzzy_Wuzzy !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        &__logo {
+            width: 10% !important;
+        }
+
+        a,
+        &__navbar__itemLink {
+            font-size: 21px;
+            margin: 0 15px;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.datos {
+    background-color: white;
+    position: absolute;
+    width: 35%;
+    padding: 2% 0;
+    bottom: 10%;
+    left: 35%;
+    z-index: 1;
+
+    &__caja1 {
+        display: inline-block;
+        width: 20%;
+        margin-left: 8%;
+    }
+
+    &__caja2 {
+        margin: 0 8%;
+        display: inline-block;
+        width: 15%;
+    }
+
+    &__caja3 {
+        display: inline-block;
+        width: 33%;
+    }
+
+    &__title {
+        font-family: "PT Mono", monospace;
+        font-size: 80px;
+        display: inline-block;
+    }
+
+    &__txt {
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+    }
+
+    &__img1 {
+        position: absolute;
+        width: 150px; /* width of container */
+        height: 20%; /* height of container */
+        object-fit: cover;
+        object-position: 20% 10%; /* try 20px 10px */
+        left: 65%;
+        z-index: 5;
+    }
+}
+
+.naranjo {
+    background-color: $Flame;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    top: 60%;
+    left: 68%;
+}
+
+.amarillo {
+    background-color: $Buff;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 9;
+    top: 65%;
+    left: 70%;
+}

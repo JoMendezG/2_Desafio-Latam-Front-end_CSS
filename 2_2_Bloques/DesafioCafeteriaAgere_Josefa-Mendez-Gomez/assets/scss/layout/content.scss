@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.content {
+    position: relative;
+    // height: 1220px;
+    &__img1 {
+        position: relative;
+        width: 70%;
+    }
+
+    &__nombreWeb {
+        position: absolute;
+        width: 30%;
+        display: inline-block;
+        height: 43.75rem;
+        right: 0%;
+    }
+
+    h1,
+    &__Nombre {
+        font-family: "PT Mono", monospace;
+        font-size: 130px;
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-bottom: 0px;
+    }
+
+    p,
+    &__subNombre {
+        font-family: "Roboto", sans-serif;
+        font-size: 2.5rem;
+        margin-top: 35px;
+        margin-left: 15%;
+    }
+
+    &__img2 {
+        position: absolute;
+        width: 30%;
+    }
+}
